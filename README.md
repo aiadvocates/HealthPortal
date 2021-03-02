@@ -17,7 +17,15 @@ Sample app for [What's new with Azure Cognitive Services, Ignite 2021 session](h
 * [Text To Speech](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/index-text-to-speech?WT.mc_id=aiml-13738-ayyonet)
 * [Angular CLI](https://github.com/angular/angular-cli)
 
-## Development server
+## Development Set-up
+
+Install latest stable [NodeJS](https://nodejs.org/en/download/current/)
+Optionally install [Angular CLI](https://github.com/angular/angular-cli) globally to be able to develop with it and to use `ng serve` command.
+
+```
+npm i
+npm run start
+```
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
