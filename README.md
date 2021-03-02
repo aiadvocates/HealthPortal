@@ -3,7 +3,7 @@
 Sample app for [What's new with Azure Cognitive Services, Ignite 2021 session](https://myignite.microsoft.com/sessions/6f88c4fd-684e-431b-a5eb-1f101a0aba51?WT.mc_id=aiml-13738-ayyonet). Find more [Ignite Session Resources](https://www.microsoft.com/en-us/devrel/cognitiveservices?WT.mc_id=aiml-13738-ayyonet). 
 
 
-| [![Form Recognizer Detecting IDs](/images/formRecognizerId.gif)](https://docs.microsoft.com/en-us/azure/cognitive-services/form-recognizer/whats-new?WT.mc_id=aiml-17450-ayyonet) |  [![Azure Spatial Analysis Distance Measuring](/images/spatialAnalysis.gif)](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/intro-to-spatial-analysis-public-preview?WT.mc_id=aiml-17450-ayyonet) | [![Face API - Face Mask Detection](/images/faceAPIMaskDetection.gif)](https://youtu.be/qiLBB4QkOH0) |
+| [![Form Recognizer Detecting IDs](/images/formRecognizerId.gif)](https://docs.microsoft.com/en-us/azure/cognitive-services/form-recognizer/whats-new?WT.mc_id=aiml-17450-ayyonet) |  [![Azure Spatial Analysis Distance Measuring](/images/spatialAnalysis.gif)](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/intro-to-spatial-analysis-public-preview?WT.mc_id=aiml-17450-ayyonet) | [![Face API - Face Mask Detection](/images/FaceAPIMaskDetection.gif)](https://youtu.be/qiLBB4QkOH0) |
 |:-- |:-- |:-- | 
 
 ## Technologies
