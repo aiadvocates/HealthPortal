@@ -3,12 +3,13 @@
 Sample app for [What's new with Azure Cognitive Services, Ignite 2021 session](https://myignite.microsoft.com/sessions/6f88c4fd-684e-431b-a5eb-1f101a0aba51?WT.mc_id=aiml-13738-ayyonet). Find more [Ignite Session Resources](https://www.microsoft.com/en-us/devrel/cognitiveservices?WT.mc_id=aiml-13738-ayyonet). 
 
 
-| [![Form Recognizer Detecting IDs](/images/formRecognizerId.gif)](https://docs.microsoft.com/en-us/azure/cognitive-services/form-recognizer/whats-new?WT.mc_id=aiml-17450-ayyonet) |  [![Azure Spatial Analysis Distance Measuring](/images/spatialAnalysis.gif)](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/intro-to-spatial-analysis-public-preview?WT.mc_id=aiml-17450-ayyonet) | [![Face API - Face Mask Detection](/images/FaceAPIMaskDetection.gif)](https://youtu.be/qiLBB4QkOH0) |
+| [![Form Recognizer Detecting IDs](/images/formRecognizerId.gif)](https://docs.microsoft.com/en-us/azure/cognitive-services/form-recognizer/whats-new?WT.mc_id=aiml-13738-ayyonet) |  [![Azure Spatial Analysis Distance Measuring](/images/spatialAnalysis.gif)](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/intro-to-spatial-analysis-public-preview?WT.mc_id=aiml--ayyonet) | [![Face API - Face Mask Detection](/images/FaceAPIMaskDetection.gif)](https://youtu.be/qiLBB4QkOH0) |
 |:-- |:-- |:-- | 
 
 ## Technologies
 
-* [Azure Cognitive Services](https://docs.microsoft.com/en-us/azure/cognitive-services/?WT.mc_id=aiml-17450-ayyonet)
+* [Azure Cloud](https://azure.microsoft.com/en-us/free/ai/?WT.mc_id=aiml-13738-ayyonet)
+* [Azure Cognitive Services](https://docs.microsoft.com/en-us/azure/cognitive-services/?WT.mc_id=aiml-13738-ayyonet)
 * [Azure Health Bot](https://docs.microsoft.com/azure/health-bot/?WT.mc_id=aiml-13738-ayyonet)
 * [Spatial Analysis](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/intro-to-spatial-analysis-public-preview?WT.mc_id=aiml-13738-ayyonet)
 * [Text Analytics for Health](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-for-health?tabs=ner&WT.mc_id=aiml-13738-ayyonet)
@@ -18,6 +19,28 @@ Sample app for [What's new with Azure Cognitive Services, Ignite 2021 session](h
 * [Angular CLI](https://github.com/angular/angular-cli)
 
 ## Development Set-up
+
+### Azure Account & Resources
+
+ - Start Free Azure AI 12 months [free popular services + $200 credit](https://azure.microsoft.com/en-us/free/ai/?WT.mc_id=aiml-13738-ayyonet)
+ - [Create Cognitive Services Resources](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account?tabs=multiservice%2Cwindows&WT.mc_id=aiml-13738-ayyonet) and copy account key, location and endpoint
+ - Create and environments files for project as [in this example](/projects/health-portal/src/environments):
+
+```json
+export const environment = {
+  production: false,
+  cognitive: {
+    key: 'your key here',
+    endPoint: 'your end point here',
+    location: 'your location here'
+  },
+  speech: {
+    key: 'your key here',
+    endPoint: 'your end point here',
+    location: 'your location here'
+  }
+};
+```
 
 Install latest stable [NodeJS](https://nodejs.org/en/download/current/)
 Optionally install [Angular CLI](https://github.com/angular/angular-cli) globally to be able to develop with it and to use `ng serve` command.
